@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="images/x-icon">
+    <script src="https://kit.fontawesome.com/5b13196994.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+
+    
+    <div class="navbar-left">
+        <div class="logo" id="icon">
+           <img class="logo" src="logo.png" alt="logo" >
+        </div>
+        <div class="searchbar"> 
+              <div><img src="search.png"></div>
+          <p class="searchfacebook">
+             <input type="text" placeholder="  Search Facebook" >
+          </p>
+        </div>
+         <div class="icon">
+             <div class="home "> 
+                 <a href="#"><img id="img" src="home.png " alt="home1"></a>
+             </div>
+             <div class="friends hide" >
+                  <img src="friends.png " alt="friends">
+             </div>
+             <div class="video hide" >
+                 <a href="https://www.facebook.com/watch/?ref=tab"> <img src="video.png " alt="video"></a>
+             </div>
+             <div class="marketplace hide" >
+                 <img src="marketplace.png" alt="marketplace">
+             </div>
+             <div class="groups">
+                 <img src="groups.png " alt="groups">
+              </div>
+       </div>
+    </div>
+          <div class="navbar-right">
+              <div class="hide" id="nvleft"> 
+                 <img src="menu.png" alt="menu.png" > 
+               </div>
+              <div class="hide" id="nvleft">
+                 <img src="messenger.png" alt="messenger.png" > 
+              </div>
+             <div id="nvleft">
+                  <img src="notification.png" alt="notification.png" > 
+              </div >
+             <div class="user  online" onclick="settingsMenuToggle()">
+                  <img  class="user1 online" src="member-5.png" alt="user.png" >
+               </div>
+               </div>
+               <div class="settings-menu">
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                           <a href="#">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="feedback.png">
+                        <div>
+                            <p>John Nicholson</p>
+                           <a href="#">See Your Profile</a>
+                        </div>
+                    </div> 
+                        <hr>
+    
+                        <div class="settings-links">
+                            <img src="setting.png" class="settings-icons">
+                            <a href="#">Seeting & Privacy <img src="arrow.png" width="10px"> </a>
+                        </div>
+                        <div class="settings-links">
+                            <img src="help.png" class="settings-icons">
+                            <a href="#">Help & Support <img src="arrow.png" width="10px"> </a>
+                        </div>
+                        <div class="settings-links">
+                            <img src="display.png" class="settings-icons">
+                            <a href="#">Display & Accessibility <img src="arrow.png" width="10px"> </a>
+                        </div>
+                        <div class="settings-links">
+                            <img src="logout.png" class="settings-icons">
+                            <a href="login.html">Login <img src="arrow.png" width="10px"> </a>
+                        </div>
+                     
+                       </div>
+               </div>
+            
+
+
+
+
+            </nav>
+
+    <div class="container">
+        <div class="left-sidebar">
+           <div class="imp-links">
+                <a href="#">
+                    <img src="news.png" >
+                    Latest News
+                </a>
+                <a href="#">
+                    <img src="friends.png" >
+                    Friends
+                </a> <a href="#">
+                    <img src="group.png" >
+                    Group
+                </a>
+                <a href="#">
+                    <img src="marketplace.png" >
+                    Marketplace 
+                </a>
+                <a href="#">
+                    <img src="Watch.png" >
+                    Watch
+                </a>
+                <a href="#">
+                    See More
+                </a>
+          </div>
+                <div class="shortcut-links">
+                    <p>Your Shortcuts</p>
+                    <a href="#"><img src="shortcut-1.png" alt=""> Web Devlopers</a>
+                    <a href="#"><img src="shortcut-2.png" alt=""> Web Desgin </a>
+                    <a href="#"><img src="shortcut-3.png" alt=""> Full Stack</a>
+                    <a href="#"><img src="shortcut-4.png" alt=""> Website experts</a>
+
+                 </div>
+         </div>
+           <div class="main-content">
+
+            <div class="story-gallery ">
+                <div class="story story1">
+                    <img src="upload.png" >
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="member-1.png" >
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="member-2.png" >
+                    <p>Rahul</p>
+                </div>
+                <div class="story story4">
+                    <img src="member-3.png" >
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="member-4.png" >
+                    <p>John</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+               <div class="post-input-container">
+                <textarea rows="2" placeholder="what's on you mind"></textarea>
+                <div class="add-post-links">
+                    <a href="#"> <img src="live-video.png"> Live Video</a>
+                    <a href="#"> <img src="photo.png"> Photo/Video</a>
+                    <a href="#"> <img src="feeling.png"> Feeling/Activity</a>
+                </div>
+               </div>
+            </div>
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                       <span>Dec 26 2023, 13:40 pm</span>
+    
+                    </div>
+    
+                </div>
+                   <p> <span> Life is gift</span> so enjoy it. <a href="#"> #LifeGoal</a>
+                 <a href="#"> #Noonecan Change you </a></p>
+                 <img src="feed-image-1.png"  class="post-img">
+    
+                 <div class="post-row">
+                    <div class="activity-icons">
+                       <div><img src="like-blue.png" alt="">120</div>
+                       <div><img src="comments.png" alt="">34</div>
+                       <div><img src="share.png" alt="">29</div>
+                    </div>
+                    <div class="post-profile-icon">
+                    <img src="profile-pic.png" alt="">
+                    </div>
+                   </div>
+                </div>    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>Dec 20 2023, 12:40 pm</span>
+            
+                            </div>
+            
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p> <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum sed commodi quae aliquid minima doloremque, numquam rerum repellendus ea vero dolor quod, eos, veniam soluta illum quibusdam porro voluptate?</span> so enjoy it. <a href="#"> #LifeGoal</a>
+                     <a href="#"> #Noonecan Change you </a></p>
+                     <img src="feed-image-2.png"  class="post-img">
+        
+                     <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="like-blue.png" alt="">100</div>
+                           <div><img src="comments.png" alt="">8</div>
+                           <div><img src="share.png" alt="">2</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                     </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>Dec 20 2023, 12:40 pm</span>
+            
+                            </div>
+            
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p> <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum sed commodi quae aliquid minima doloremque, numquam rerum repellendus ea vero dolor quod, eos, veniam soluta illum quibusdam porro voluptate?</span> so enjoy it. <a href="#"> #LifeGoal</a>
+                     <a href="#"> #Noonecan Change you </a></p>
+                     <img src="feed-image-3.png"  class="post-img">
+        
+                     <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="like-blue.png" alt="">100</div>
+                           <div><img src="comments.png" alt="">8</div>
+                           <div><img src="share.png" alt="">2</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                     </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>Dec 20 2023, 12:40 pm</span>
+            
+                            </div>
+            
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p> <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum sed commodi quae aliquid minima doloremque, numquam rerum repellendus ea vero dolor quod, eos, veniam soluta illum quibusdam porro voluptate?</span> so enjoy it. <a href="#"> #LifeGoal</a>
+                     <a href="#"> #Noonecan Change you </a></p>
+                     <img src="feed-image-4.png"  class="post-img">
+        
+                     <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="like-blue.png" alt="">100</div>
+                           <div><img src="comments.png" alt="">8</div>
+                           <div><img src="share.png" alt="">2</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                     </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>Dec 20 2023, 12:40 pm</span>
+            
+                            </div>
+            
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p> <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsum sed commodi quae aliquid minima doloremque, numquam rerum repellendus ea vero dolor quod, eos, veniam soluta illum quibusdam porro voluptate?</span> so enjoy it. <a href="#"> #LifeGoal</a>
+                     <a href="#"> #Noonecan Change you </a></p>
+                     <img src="feed-image-5.png"  class="post-img">
+        
+                     <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="like-blue.png" alt="">100</div>
+                           <div><img src="comments.png" alt="">8</div>
+                           <div><img src="share.png" alt="">2</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                     </div>
+                </div>
+        
+        
+            </div>
+           
+           
+               <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>contacts</h4>
+                   <a href="#">See All</a>
+                </div>
+
+                <!-- <div class="event">
+                 <div class="left-event">
+                      <h3>18 </h3>
+                      <Span>December</Span>
+
+                   </div> -->
+
+                   <div class="contact">
+
+                   </div>
+                   <div class="right-event">
+                       <!-- <h4>Social Media</h4>
+                       <p>Deepak Park </p>
+                       <a href="#">More Info </a> -->
+                       <a href="#">
+                        <img src="member-5.png" >
+                        Deepak Vashist
+                       </a>
+                       <a href="#">
+                        <img src="member-2.png" >
+                        John willy
+                       </a>
+                       <a href="#">
+                        <img src="member-3.png" >
+                        Pooja 
+                       </a>
+                       <a href="#">
+                        <img src="member-4.png" >
+                        Bob 
+                       </a>
+                       <a href="#">
+                        <img src="member-1.png" >
+                        Alex
+                       </a>
+                       <a href="#">
+                        See More
+                      </a>
+                   </div>
+                 </div>
+
+</div>
+<div class="footer">
+    <p>Copyright 2023-  deepakvinit18@gmail.com  Good luck</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
