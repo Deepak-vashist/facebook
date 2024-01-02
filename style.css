@@ -510,6 +510,11 @@ img{
     text-decoration: none;
 
 }
+.right-event .member1l:hover{
+    background-color: white;
+    color:white;
+}
+
 @media only screen and (max-width: 760px) {
    .left-sidebar{
        display:none;
